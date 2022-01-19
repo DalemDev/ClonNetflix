@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clon Netflix</title>
+    <link rel="shortcut icon" href="https://assets.nflxext.com/us/ffe/siteui/common/icons/nficon2016.ico">
+    <link rel="apple-touch-icon" href="https://assets.nflxext.com/us/ffe/siteui/common/icons/nficon2016.png">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="contenedor">
+        <div class="contenedor-imagen">
+            <div class="header">
+                <div class="header-logo">
+                    <img src="assets/img/logo.png" alt="logo">
+                </div>
+                <div class="header-acciones">
+                    <select name="idiona" id="idiona">
+                        <option value="Inglés">Inglés</option>
+                        <option value="Español">Español</option>
+                    </select>
+                    <a href="#">Inicia Sesión</a>
+                </div>
+            </div>
+            <div class="header-texto">
+                <h1>Películas, programas de televisión y más ilimitados.</h1>
+                <p>Mira en cualquier lugar. Cancela en cualquier momento.</p>
+                <p class="texto-color">¿Listo para ver? Ingrese su correo electrónico para crear o reiniciar su membresía.</p>
+                <div class="header-subscribirse">
+                    <input type="email" name="correo" id="correo" required placeholder="Dirección de correo electrónico">
+                    <a href="" id="comenzar">Comenzar ></a>
+                    <div id="preload"></div>
+                </div>
+            </div>
+            <div class="img-gradient"></div>    
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
